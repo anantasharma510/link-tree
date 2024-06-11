@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #8a6885;
+    color: white;
+}
+
+.container {
+    /* border: 2px solid red; */
+    width: 450px;
+    height: 710px;
+    background: linear-gradient(to bottom, #ff416c, #ff4b2b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    border: 1.5px solid rgba(255, 255, 255, 0.401);
+    padding-top: 2rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    background-color: rgba(53, 204, 250, 0.3);
+    backdrop-filter: blur(20px);
+    width: 330px;
+    padding: .4rem .4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    transition-duration: .2s;
+}
+
+.navbar:hover {
+    transform: scale(0.97);
+    background-color: rgba(255, 75, 43, 0.4);
+}
+
+.profile {
+    width: 2.6rem;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    filter: invert(1);
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.main {}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .9rem 2rem;
+    width: 320px;
+    border-radius: 9px;
+    background-color: rgba(234, 234, 234, 0.9);
+    margin: 1rem;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    transition-duration: .2s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.319);
+}
+
+.items:hover {
+    transform: scale(0.96);
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.icon {
+    width: 2rem;
+}
+
+.user {
+    color: #3b4252;
+
+}
+
+.name {
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.sub {
+    font-family: 'Courier New', monospace;
+    color: #f0f0f0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
